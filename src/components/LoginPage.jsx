@@ -7,6 +7,8 @@ import TopicSelectionComponent from './TopicSelectionComponent';
 import MentorTypeComponent from './MentorTypeComponent';
 import ProfileComponent from './ProfileComponent';
 import CareerOptionsComponent from './CareerOptionsComponent';
+import MentoringCall from './MentoringCall';
+import ReviewComponent from './ReviewComponent';
 
 const LoginPage = () => {
     const [login1Data, setLogin1Data] = useState({
@@ -128,6 +130,12 @@ const LoginPage = () => {
         </div>
         <div>
             <CareerOptionsComponent/>
+        </div>
+        <div>
+            <MentoringCall/>
+        </div>
+        <div>
+            <ReviewComponent/>
         </div>
         </div>
     );

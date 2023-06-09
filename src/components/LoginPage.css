@@ -520,6 +520,35 @@ body {
   cursor: pointer;
 }
 
+.empty-timetable-box {
+  width: 50px;
+  height: 20px;
+  background-color: #ccc;
+  margin-left: 10px;
+}
+
+.edit-paragraph-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.edit-paragraph-container p {
+  margin-right: 10px;
+}
+
+.edit-button {
+  margin-left: auto;
+}
+
+.centered-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
 
 
 
