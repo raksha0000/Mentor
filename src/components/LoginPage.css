@@ -548,6 +548,22 @@ body {
   height: 100%;
 }
 
+.continue-button {
+  background-color: #8e19c0;
+  color: white;
+  padding: 10px 40px;
+  border: white;
+  border-radius: 6px;
+  cursor: pointer;
+  border-left: 40px;
+}
+
+.continue-button:hover {
+  background-color: gray;
+}
+
+
+
 
 
 
